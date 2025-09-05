@@ -85,7 +85,7 @@ page = st.sidebar.radio("Pilih Bab:",
 st.sidebar.markdown("---")
 st.sidebar.info("""
 **Dashboard Penelitian Jurnal**
-*Penerapan Pendekatan Data-Driven dalam Menganalisis Strategi Harga dan Volume Penjualan Sepeda Motor Matic*
+*Penerapan Pendekatan Data-Driven dalam Menganalisis Strategi Harga dan Volume Penjualan Sepeda Motor Matic studi kasus astra motor klaten*
 """)
 
 if page == "Pendahuluan & Data":
@@ -157,7 +157,7 @@ elif page == "Pemodelan & Hasil Penelitian":
         <table style="width:100%; color: #333; border: 1px solid #C0C0C0; font-family: sans-serif; font-size: 1.1em; border-collapse: collapse;">
             <tr style="background-color:#F0F0F0; font-weight: bold;"><td style="padding: 8px; text-align: left;">Variabel</td><td style="padding: 8px; text-align: right;">coef</td><td style="padding: 8px; text-align: right;">std err</td><td style="padding: 8px; text-align: right;">t</td><td style="padding: 8px; text-align: right;">P>|t|</td></tr>
             <tr><td style="padding: 8px; text-align: left;"><b>const</b></td><td style="text-align: right;">36.5043</td><td style="text-align: right;">1.346</td><td style="text-align: right;">27.125</td><td style="text-align: right;"><b>0.000</b></td></tr>
-            <tr style="background-color:#F8F8F8;"><td style="padding: 8px; text-align: left;"><b>Harga_Rata_Rata_Seri</b></td><td style="text-align: right;">-5.826e-07</td><td style="text-align: right;">2.03e-08</td><td style="text-align: right;">-28.706</td><td style="text-align: right;"><b>0.000</b></td></tr>
+            <tr style="background-color:#f3f6f4;"><td style="padding: 8px; text-align: left;"><b>Harga_Rata_Rata_Seri</b></td><td style="text-align: right;">-5.826e-07</td><td style="text-align: right;">2.03e-08</td><td style="text-align: right;">-28.706</td><td style="text-align: right;"><b>0.000</b></td></tr>
             <tr><td style="padding: 8px; text-align: left;">Bulan_April</td><td style="text-align: right;">-1.8571</td><td style="text-align: right;">2.103</td><td style="text-align: right;">-0.883</td><td style="text-align: right;">0.380</td></tr>
             <tr style="background-color:#F8F8F8;"><td style="padding: 8px; text-align: left;"><b>Bulan_Desember</b></td><td style="text-align: right;">10.8571</td><td style="text-align: right;">2.103</td><td style="text-align: right;">5.162</td><td style="text-align: right;"><b>0.000</b></td></tr>
             <tr><td style="padding: 8px; text-align: left;">Bulan_Februari</td><td style="text-align: right;">1.4286</td><td style="text-align: right;">2.103</td><td style="text-align: right;">0.679</td><td style="text-align: right;">0.499</td></tr>
@@ -284,4 +284,5 @@ elif page == "Implikasi & Kesimpulan":
         """
         **Penelitian ini berhasil membuktikan bahwa pendekatan *Data-Driven Decision Making (DDDM)* dapat diterapkan secara efektif untuk menganalisis strategi pemasaran di tingkat dealer otomotif.** Melalui model Regresi Linier Berganda, penelitian ini berhasil mengkuantifikasi dan memvalidasi secara empiris pengaruh dari faktor **Harga, Seri Produk, dan Musiman** terhadap volume penjualan. Lebih lanjut, penggunaan model **ARIMA** sebagai saran penelitian lanjutan juga terbukti dapat memberikan nilai tambah dalam bentuk **peramalan (forecasting)**, yang menguatkan validitas pendekatan berbasis data secara keseluruhan.
         """
+
     )
